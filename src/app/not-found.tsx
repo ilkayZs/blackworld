@@ -10,7 +10,7 @@ export default function NotFoundPage() {
         <h1 className="text-6xl font-bold mb-4">404</h1>
         <h2 className="text-3xl font-semibold mb-6">Page Not Found</h2>
         <p className="text-xl mb-8 max-w-md mx-auto">
-          Oops! The page you're looking for doesn't exist. It might have been moved or deleted.
+          Oops! The page you&apos;re looking for doesn&apos;t exist. It might have been moved or deleted.
         </p>
         <div className="space-y-4">
           <Button asChild className="bg-white  text-black hover:bg-gray-200">

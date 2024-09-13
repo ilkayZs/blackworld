@@ -18,7 +18,7 @@ const Contact = () => {
           <Card className="bg-neutral-900/90 border-neutral-700 border dark:border-neutral-400 dark:bg-neutral-200 text-white dark:text-neutral-950 ">
             <CardHeader>
               <CardTitle>Send us a message</CardTitle>
-              <CardDescription>We'll get back to you as soon as possible.</CardDescription>
+              <CardDescription>We&apos;ll get back to you as soon as possible.</CardDescription>
             </CardHeader>
             <CardContent>
               <form className="space-y-4">

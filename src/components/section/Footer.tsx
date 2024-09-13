@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { FaXTwitter } from "react-icons/fa6";
 export default function Component() {
     return (

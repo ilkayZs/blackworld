@@ -11,7 +11,7 @@ export default function AboutPage() {
             <div className="md:w-1/2">
               <p className="text-lg mb-4">
                 We are a forward-thinking company dedicated to innovation and excellence. 
-                Founded in 2010, we've been at the forefront of technological advancements, 
+                Founded in 2010, we&apos;ve been at the forefront of technological advancements, 
                 consistently delivering cutting-edge solutions to our clients.
               </p>
               <p className="text-lg mb-4">

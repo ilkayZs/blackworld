@@ -3,6 +3,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { CalendarIcon, Clock3Icon } from 'lucide-react'
+import Image from 'next/image'
 
 const blogPosts = [
   {
@@ -46,7 +47,7 @@ const BlogPage = () => {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {blogPosts.map((post, index) => (
             <Card key={index} className="bg-neutral-900 text-white dark:text-neutral-950 dark:bg-neutral-200 border-neutral-700 dark:border-neutral-400 overflow-hidden">
-              <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
+              <Image src={post.image} alt={post.title} className="w-full h-48 object-cover" />
               <CardHeader>
                 <CardTitle className="text-xl font-semibold">{post.title}</CardTitle>
               </CardHeader>
