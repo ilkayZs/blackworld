@@ -91,8 +91,7 @@ export default function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
             <NavLink href="/">Home</NavLink>
             <NavLink href="/about">About</NavLink>
-            <NavLink href="/services">Services</NavLink>
-            <NavLink href="/products">Products</NavLink>
+            <NavLink href="/product">Products</NavLink>
              <div className="relative">
                 <button
                   onClick={() => setIsDropdownOpen(!isDropdownOpen)}
@@ -104,12 +103,12 @@ export default function Navbar() {
                 {isDropdownOpen && (
                   <div className="mt-2 w-48 bg-neutral-900/90 dark:bg-neutral-100 border border-neutral-700 dark:border-neutral-400 rounded-md shadow-lg py-1">
                     <Link href="/blog" className="block px-4 py-2 text-sm dark:text-gray-700 dark:hover:text-black  text-gray-300 hover:text-white">Blog</Link>
-                    <Link href="/faq" className="block px-4 py-2 text-sm dark:text-gray-700 dark:hover:text-black  text-gray-300 hover:text-white">FAQ</Link>
-                    <Link href="/support" className="block px-4 py-2 text-sm dark:text-gray-700 dark:hover:text-black  text-gray-300 hover:text-white">Support</Link>
+                    <Link href="/faqs" className="block px-4 py-2 text-sm dark:text-gray-700 dark:hover:text-black  text-gray-300 hover:text-white">FAQ</Link>
+                    <Link href="/contact" className="block px-4 py-2 text-sm dark:text-gray-700 dark:hover:text-black  text-gray-300 hover:text-white">Contact</Link>
                   </div>
                 )}
              </div>
-            <NavLink href="/contact">Contact</NavLink>
+          
           </div>
         </div>
       )}

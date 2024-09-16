@@ -37,33 +37,7 @@ export default function Component() {
           </div>
         </div>
       </div>
-      <div className='flex flex-col items-center h-64 w-full mt-12 md:mt-44 border-y border-neutral-700 dark:border-neutral-400 dark:bg-white bg-neutral-950 '>
-      <h2 className='text-xl mt-4 md:mt-6'>Trusted by companies</h2>
-      <div className='grid grid-cols-1 md:grid-cols-3 mt-2 md:mt-12 mx-auto gap-2 justify-center items-center'>
-        <Image
-        src="/CompanyLogos/googlelogo.svg"
-        alt='google logo'
-        width={200}
-        height={200}
-        
-        /> 
-          <Image
-        src="/CompanyLogos/dockerlogo.svg"
-        alt='Docker logo'
-        width={200}
-        height={200}
-        
-        /> 
-          <Image
-        src="/CompanyLogos/linkedinlogo.svg"
-        alt='Linkedin logo'
-        width={200}
-        height={200}
-        /> 
       
-      </div>
-      
-      </div>
     </section>
   )
 }

@@ -15,31 +15,31 @@ function Faqs() {
     <AccordionItem value="item-1">
       <AccordionTrigger>Is it accessible?</AccordionTrigger>
       <AccordionContent>
-        Yes. It adheres to the WAI-ARIA design pattern.
+        Yes. It adheres to the Next.js design pattern.
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-2">
-      <AccordionTrigger>Is it accessible?</AccordionTrigger>
+      <AccordionTrigger>Is it good?</AccordionTrigger>
       <AccordionContent>
-        Yes. It adheres to the WAI-ARIA design pattern.
+      Yes, this theme is very good.
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-3">
-      <AccordionTrigger>Is it accessible?</AccordionTrigger>
+      <AccordionTrigger>Is it nice?</AccordionTrigger>
       <AccordionContent>
-        Yes. It adheres to the WAI-ARIA design pattern.
+      Yes, this theme is very nice.
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-4">
-      <AccordionTrigger>Is it accessible?</AccordionTrigger>
+      <AccordionTrigger>Is it real?</AccordionTrigger>
       <AccordionContent>
-        Yes. It adheres to the WAI-ARIA design pattern.
+       Yes, this theme is real.
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-5">
-      <AccordionTrigger>Is it accessible?</AccordionTrigger>
+      <AccordionTrigger>Is it landing page?</AccordionTrigger>
       <AccordionContent>
-        Yes. It adheres to the WAI-ARIA design pattern.
+      Maybe...
       </AccordionContent>
     </AccordionItem>
     </Accordion>
