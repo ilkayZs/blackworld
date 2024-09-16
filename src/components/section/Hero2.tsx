@@ -9,7 +9,7 @@ function Hero2() {
           Unleash the Future: Where Innovation Meets Possibility
         </h2>
         <div className='max-w-2xl mx-auto'>
-          <p className='text-center text-base mt-4 text-neutral-50/70'>
+          <p className='text-center text-base mt-4 dark:bg-white text-neutral-50/70 dark:text-black/70'>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto voluptas consequatur quam itaque a tempore aliquid natus, fugiat accusantium debitis. Quaerat doloremque voluptates natus nulla? Natus quam odit omnis quo!
           </p>
         </div>

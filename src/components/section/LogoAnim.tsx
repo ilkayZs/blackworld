@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
+
 import googlelogo from '../../../public/CompanyLogos/googlelogo.svg'
 import linkedinlogo from '../../../public/CompanyLogos/linkedinlogo.svg'
 import dockerlogo from '../../../public/CompanyLogos/dockerlogo.svg'
@@ -18,8 +19,8 @@ export const LogoAnim = () => {
       <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <h2 className="text-xl text-center text-neutral-50/70">Trusted by the world&apos;s most great company</h2>
         <div className="relative overflow-hidden mt-10">
-          <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-neutral-950 to-transparent z-10"></div>
-          <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-neutral-950 to-transparent z-10"></div>
+          <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-neutral-950 to-transparent dark:bg-gradient-to-r dark:from-white dark:to-transparent z-10"></div>
+          <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-neutral-950 to-transparent dark:bg-gradient-to-1 dark:from-white dark:to-transparent z-10"></div>
           <motion.div
             animate={{
               x: ["0%", "-33.33%"]

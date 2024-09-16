@@ -29,7 +29,7 @@ export default function Navbar() {
   )
 
   return (
-    <nav className="fixed w-full top-0 backdrop-blur-xl bg-neutral-950/50 dark:bg-neutral-50/10 z-10 text-white dark:hover:text-black border-b border-neutral-700 dark:border-neutral-400 ">
+    <nav className="fixed w-full top-0 backdrop-blur-xl bg-neutral-950/50 dark:bg-neutral-50/10 z-30 text-white dark:hover:text-black border-b border-neutral-700 dark:border-neutral-400 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
