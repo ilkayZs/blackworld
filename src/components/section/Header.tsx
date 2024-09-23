@@ -30,6 +30,12 @@ export default function Navbar() {
 
   return (
     <nav className="fixed w-full top-0 backdrop-blur-xl bg-neutral-950/50 dark:bg-neutral-50/10 z-30 text-white dark:hover:text-black border-b border-neutral-700 dark:border-neutral-400 ">
+      <div className='flex justify-center items-center p-2  bg-black'>
+        <Link href="https://www.megalig.com/ " rel="noopener noreferrer" target="_blank" 
+        className='text-sm md:text-base hover:scale-110 transition-all duration-300 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-indigo-500'>
+        -40% Intro price for the next 72 hours only! Buy now →
+        </Link>
+      </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
